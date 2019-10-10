@@ -25,9 +25,9 @@ form="""
     </head>
     <body>
       <form action="/" method="POST">
-        <label for="rot">Rotate by:</label>
-        <input type="text" name="rot" id="rot" value="0" pattern="[0-9] required>
-        <textarea id="textarea" name="text" required > {0} </textarea>    
+        <label for='rot'>Rotate by:</label>
+        <input type="text" name="rot" id="rot" value="0" pattern="[0-9]+" required>
+        <textarea id="textarea" name="text" required>{0}</textarea>    
         <input type="submit" value="Submit Query">
       </form>
     </body>
